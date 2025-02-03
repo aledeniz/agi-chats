@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>configure-data-drive-mirror</id>
+    <version>1.0.0</version>
+    <title>Configure Data Drive Mirror</title>
+    <authors>YourName</authors>
+    <owners>YourOrganisation</owners>
+    <description>Installs a scheduled task to mirror data using robocopy with various credential options.</description>
+    <tags>scheduledtask robocopy gmsa</tags>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyInstall.ps1" target="tools\" />
+  </files>
+</package>
